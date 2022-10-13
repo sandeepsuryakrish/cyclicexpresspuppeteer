@@ -1,5 +1,5 @@
 const app = require("express")();
-// import S3 from 'aws-sdk/clients/s3.js';
+
 const AWS = require("aws-sdk")
 
 const s3 = new AWS.S3({
