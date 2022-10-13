@@ -14,8 +14,8 @@ const s3 = new AWS.S3({
         secretAccessKey: '7d12007f1d74efce577229eb94c5b6ee44bb7527fc1c9c4810f3fbafd223e7da'
     }
 })
-let chrome = {};
-let puppeteer;
+// let chrome = {};
+// let puppeteer;
 
 // if (process.env.AWS_LAMBDA_FUNCTION_VERSION) {
 //     chrome = require("chrome-aws-lambda");
