@@ -2,8 +2,8 @@
 import express from 'express';
 import AWS from 'aws-sdk';
 // const AWS = require("aws-sdk")
-import { chrome } from "chrome-aws-lambda"
-import { puppeteer } from 'puppeteer-core';
+import chrome from "chrome-aws-lambda"
+import puppeteer from 'puppeteer-core';
 const s3 = new AWS.S3({
     endpoint: 'https://173eba01c702ce7ebd38dceb4d4e5cbd.r2.cloudflarestorage.com',
     accessKeyId: 'df07da875bd30799ee343a5148b8caa5',
