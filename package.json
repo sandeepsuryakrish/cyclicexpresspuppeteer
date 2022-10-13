@@ -1,5 +1,4 @@
 {
-    "type": "commonjs",
     "name": "puppeteer-vercel",
     "version": "1.0.0",
     "description": "",

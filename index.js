@@ -1,6 +1,7 @@
-const app = require("express")();
-
-const AWS = require("aws-sdk")
+// const app = require("express")();
+import express from 'express';
+import AWS from 'aws-sdk';
+// const AWS = require("aws-sdk")
 
 const s3 = new AWS.S3({
     endpoint: 'https://173eba01c702ce7ebd38dceb4d4e5cbd.r2.cloudflarestorage.com',
@@ -83,4 +84,4 @@ app.listen(process.env.PORT || 3000, () => {
     console.log("Server started");
 });
 
-module.exports = app;
+module.exports = express;
