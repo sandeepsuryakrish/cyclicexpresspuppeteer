@@ -1,6 +1,8 @@
 const app = require("express")();
-import S3 from 'aws-sdk/clients/s3.js';
-const s3 = new S3({
+// import S3 from 'aws-sdk/clients/s3.js';
+const AWS = require("aws-sdk")
+
+const s3 = new AWS.S3({
     endpoint: 'https://173eba01c702ce7ebd38dceb4d4e5cbd.r2.cloudflarestorage.com',
     accessKeyId: 'df07da875bd30799ee343a5148b8caa5',
     secretAccessKey: '7d12007f1d74efce577229eb94c5b6ee44bb7527fc1c9c4810f3fbafd223e7da',
